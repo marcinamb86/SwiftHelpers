@@ -18,6 +18,8 @@
 		7D219DC3215DF85E003EDD36 /* ArrayHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DC2215DF85E003EDD36 /* ArrayHelpersTests.swift */; };
 		7D219DC5215DFB4A003EDD36 /* UIColorHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DC4215DFB4A003EDD36 /* UIColorHelpers.swift */; };
 		7D219DC7215DFB52003EDD36 /* UIColorHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DC6215DFB52003EDD36 /* UIColorHelpersTests.swift */; };
+		7D219DC9215DFCC1003EDD36 /* HashGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DC8215DFCC1003EDD36 /* HashGenerator.swift */; };
+		7D219DCB215DFCCA003EDD36 /* HashGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DCA215DFCCA003EDD36 /* HashGeneratorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		7D219DC2215DF85E003EDD36 /* ArrayHelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayHelpersTests.swift; sourceTree = "<group>"; };
 		7D219DC4215DFB4A003EDD36 /* UIColorHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHelpers.swift; sourceTree = "<group>"; };
 		7D219DC6215DFB52003EDD36 /* UIColorHelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHelpersTests.swift; sourceTree = "<group>"; };
+		7D219DC8215DFCC1003EDD36 /* HashGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashGenerator.swift; sourceTree = "<group>"; };
+		7D219DCA215DFCCA003EDD36 /* HashGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashGeneratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 				7D219DBC215DF3EF003EDD36 /* StringValidator.swift */,
 				7D219DC0215DF819003EDD36 /* ArrayHelpers.swift */,
 				7D219DC4215DFB4A003EDD36 /* UIColorHelpers.swift */,
+				7D219DC8215DFCC1003EDD36 /* HashGenerator.swift */,
 			);
 			path = SwiftHelpers;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 				7D219DBE215DF3FB003EDD36 /* StringValidatorTests.swift */,
 				7D219DC2215DF85E003EDD36 /* ArrayHelpersTests.swift */,
 				7D219DC6215DFB52003EDD36 /* UIColorHelpersTests.swift */,
+				7D219DCA215DFCCA003EDD36 /* HashGeneratorTests.swift */,
 			);
 			path = SwiftHelpersTests;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 			files = (
 				7D219DB9215DF1FA003EDD36 /* Loader.swift in Sources */,
 				7D219DC1215DF819003EDD36 /* ArrayHelpers.swift in Sources */,
+				7D219DC9215DFCC1003EDD36 /* HashGenerator.swift in Sources */,
 				7D219DBD215DF3EF003EDD36 /* StringValidator.swift in Sources */,
 				7D219DC5215DFB4A003EDD36 /* UIColorHelpers.swift in Sources */,
 			);
@@ -233,6 +240,7 @@
 				7D219DBB215DF206003EDD36 /* LoaderTests.swift in Sources */,
 				7D219DAC215DEB8D003EDD36 /* SwiftHelpersTests.swift in Sources */,
 				7D219DC7215DFB52003EDD36 /* UIColorHelpersTests.swift in Sources */,
+				7D219DCB215DFCCA003EDD36 /* HashGeneratorTests.swift in Sources */,
 				7D219DBF215DF3FB003EDD36 /* StringValidatorTests.swift in Sources */,
 				7D219DC3215DF85E003EDD36 /* ArrayHelpersTests.swift in Sources */,
 			);
