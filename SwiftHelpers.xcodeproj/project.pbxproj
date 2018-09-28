@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		7D219D9F215DEA52003EDD36 /* SwiftHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D219D9D215DEA52003EDD36 /* SwiftHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D219DAC215DEB8D003EDD36 /* SwiftHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DAB215DEB8D003EDD36 /* SwiftHelpersTests.swift */; };
+		7D219DAE215DEB8D003EDD36 /* SwiftHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D219D9A215DEA52003EDD36 /* SwiftHelpers.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D219DAF215DEB8D003EDD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D219D91215DEA52003EDD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D219D99215DEA52003EDD36;
+			remoteInfo = SwiftHelpers;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7D219D9A215DEA52003EDD36 /* SwiftHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D219D9D215DEA52003EDD36 /* SwiftHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftHelpers.h; sourceTree = "<group>"; };
 		7D219D9E215DEA52003EDD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D219DA9215DEB8C003EDD36 /* SwiftHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D219DAB215DEB8D003EDD36 /* SwiftHelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHelpersTests.swift; sourceTree = "<group>"; };
+		7D219DAD215DEB8D003EDD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +39,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D219DA6215DEB8C003EDD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D219DAE215DEB8D003EDD36 /* SwiftHelpers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				7D219D9C215DEA52003EDD36 /* SwiftHelpers */,
+				7D219DAA215DEB8D003EDD36 /* SwiftHelpersTests */,
 				7D219D9B215DEA52003EDD36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				7D219D9A215DEA52003EDD36 /* SwiftHelpers.framework */,
+				7D219DA9215DEB8C003EDD36 /* SwiftHelpersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,6 +75,15 @@
 				7D219D9E215DEA52003EDD36 /* Info.plist */,
 			);
 			path = SwiftHelpers;
+			sourceTree = "<group>";
+		};
+		7D219DAA215DEB8D003EDD36 /* SwiftHelpersTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D219DAB215DEB8D003EDD36 /* SwiftHelpersTests.swift */,
+				7D219DAD215DEB8D003EDD36 /* Info.plist */,
+			);
+			path = SwiftHelpersTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +118,38 @@
 			productReference = 7D219D9A215DEA52003EDD36 /* SwiftHelpers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7D219DA8215DEB8C003EDD36 /* SwiftHelpersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D219DB1215DEB8D003EDD36 /* Build configuration list for PBXNativeTarget "SwiftHelpersTests" */;
+			buildPhases = (
+				7D219DA5215DEB8C003EDD36 /* Sources */,
+				7D219DA6215DEB8C003EDD36 /* Frameworks */,
+				7D219DA7215DEB8C003EDD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D219DB0215DEB8D003EDD36 /* PBXTargetDependency */,
+			);
+			name = SwiftHelpersTests;
+			productName = SwiftHelpersTests;
+			productReference = 7D219DA9215DEB8C003EDD36 /* SwiftHelpersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7D219D91215DEA52003EDD36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Marcin Ambrochowicz";
 				TargetAttributes = {
 					7D219D99215DEA52003EDD36 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					7D219DA8215DEB8C003EDD36 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -111,12 +167,20 @@
 			projectRoot = "";
 			targets = (
 				7D219D99215DEA52003EDD36 /* SwiftHelpers */,
+				7D219DA8215DEB8C003EDD36 /* SwiftHelpersTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7D219D98215DEA52003EDD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D219DA7215DEB8C003EDD36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,7 +197,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D219DA5215DEB8C003EDD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D219DAC215DEB8D003EDD36 /* SwiftHelpersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D219DB0215DEB8D003EDD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D219D99215DEA52003EDD36 /* SwiftHelpers */;
+			targetProxy = 7D219DAF215DEB8D003EDD36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7D219DA0215DEA52003EDD36 /* Debug */ = {
@@ -310,6 +390,44 @@
 			};
 			name = Release;
 		};
+		7D219DB2215DEB8D003EDD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSZ6K45L57;
+				INFOPLIST_FILE = SwiftHelpersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = name.marcinamb86.SwiftHelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D219DB3215DEB8D003EDD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSZ6K45L57;
+				INFOPLIST_FILE = SwiftHelpersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = name.marcinamb86.SwiftHelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +445,15 @@
 			buildConfigurations = (
 				7D219DA3215DEA52003EDD36 /* Debug */,
 				7D219DA4215DEA52003EDD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D219DB1215DEB8D003EDD36 /* Build configuration list for PBXNativeTarget "SwiftHelpersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D219DB2215DEB8D003EDD36 /* Debug */,
+				7D219DB3215DEB8D003EDD36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
