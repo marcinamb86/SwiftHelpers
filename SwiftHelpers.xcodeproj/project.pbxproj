@@ -12,6 +12,8 @@
 		7D219DAE215DEB8D003EDD36 /* SwiftHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D219D9A215DEA52003EDD36 /* SwiftHelpers.framework */; };
 		7D219DB9215DF1FA003EDD36 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DB8215DF1FA003EDD36 /* Loader.swift */; };
 		7D219DBB215DF206003EDD36 /* LoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DBA215DF206003EDD36 /* LoaderTests.swift */; };
+		7D219DBD215DF3EF003EDD36 /* StringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DBC215DF3EF003EDD36 /* StringValidator.swift */; };
+		7D219DBF215DF3FB003EDD36 /* StringValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DBE215DF3FB003EDD36 /* StringValidatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		7D219DAD215DEB8D003EDD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D219DB8215DF1FA003EDD36 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		7D219DBA215DF206003EDD36 /* LoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderTests.swift; sourceTree = "<group>"; };
+		7D219DBC215DF3EF003EDD36 /* StringValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringValidator.swift; sourceTree = "<group>"; };
+		7D219DBE215DF3FB003EDD36 /* StringValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringValidatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 				7D219D9D215DEA52003EDD36 /* SwiftHelpers.h */,
 				7D219D9E215DEA52003EDD36 /* Info.plist */,
 				7D219DB8215DF1FA003EDD36 /* Loader.swift */,
+				7D219DBC215DF3EF003EDD36 /* StringValidator.swift */,
 			);
 			path = SwiftHelpers;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 				7D219DAB215DEB8D003EDD36 /* SwiftHelpersTests.swift */,
 				7D219DAD215DEB8D003EDD36 /* Info.plist */,
 				7D219DBA215DF206003EDD36 /* LoaderTests.swift */,
+				7D219DBE215DF3FB003EDD36 /* StringValidatorTests.swift */,
 			);
 			path = SwiftHelpersTests;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D219DB9215DF1FA003EDD36 /* Loader.swift in Sources */,
+				7D219DBD215DF3EF003EDD36 /* StringValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +218,7 @@
 			files = (
 				7D219DBB215DF206003EDD36 /* LoaderTests.swift in Sources */,
 				7D219DAC215DEB8D003EDD36 /* SwiftHelpersTests.swift in Sources */,
+				7D219DBF215DF3FB003EDD36 /* StringValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
