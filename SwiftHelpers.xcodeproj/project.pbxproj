@@ -10,6 +10,8 @@
 		7D219D9F215DEA52003EDD36 /* SwiftHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D219D9D215DEA52003EDD36 /* SwiftHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D219DAC215DEB8D003EDD36 /* SwiftHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DAB215DEB8D003EDD36 /* SwiftHelpersTests.swift */; };
 		7D219DAE215DEB8D003EDD36 /* SwiftHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D219D9A215DEA52003EDD36 /* SwiftHelpers.framework */; };
+		7D219DB9215DF1FA003EDD36 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DB8215DF1FA003EDD36 /* Loader.swift */; };
+		7D219DBB215DF206003EDD36 /* LoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DBA215DF206003EDD36 /* LoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		7D219DA9215DEB8C003EDD36 /* SwiftHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D219DAB215DEB8D003EDD36 /* SwiftHelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHelpersTests.swift; sourceTree = "<group>"; };
 		7D219DAD215DEB8D003EDD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D219DB8215DF1FA003EDD36 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		7D219DBA215DF206003EDD36 /* LoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			children = (
 				7D219D9D215DEA52003EDD36 /* SwiftHelpers.h */,
 				7D219D9E215DEA52003EDD36 /* Info.plist */,
+				7D219DB8215DF1FA003EDD36 /* Loader.swift */,
 			);
 			path = SwiftHelpers;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			children = (
 				7D219DAB215DEB8D003EDD36 /* SwiftHelpersTests.swift */,
 				7D219DAD215DEB8D003EDD36 /* Info.plist */,
+				7D219DBA215DF206003EDD36 /* LoaderTests.swift */,
 			);
 			path = SwiftHelpersTests;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					7D219D99215DEA52003EDD36 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					7D219DA8215DEB8C003EDD36 = {
 						CreatedOnToolsVersion = 10.0;
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D219DB9215DF1FA003EDD36 /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D219DBB215DF206003EDD36 /* LoaderTests.swift in Sources */,
 				7D219DAC215DEB8D003EDD36 /* SwiftHelpersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +350,7 @@
 		7D219DA3215DEA52003EDD36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -359,6 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = name.marcinamb86.SwiftHelpers;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +378,7 @@
 		7D219DA4215DEA52003EDD36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -393,6 +405,7 @@
 		7D219DB2215DEB8D003EDD36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SSZ6K45L57;
 				INFOPLIST_FILE = SwiftHelpersTests/Info.plist;
@@ -412,6 +425,7 @@
 		7D219DB3215DEB8D003EDD36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SSZ6K45L57;
 				INFOPLIST_FILE = SwiftHelpersTests/Info.plist;
