@@ -18,4 +18,6 @@ class SwiftHelpersTests : XCTestCase {
         
     }
 
+    let testsBundle = Bundle(identifier: "name.marcinamb86.SwiftHelpersTests")!
+    
 }
