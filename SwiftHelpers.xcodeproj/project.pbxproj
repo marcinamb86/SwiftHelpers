@@ -21,6 +21,9 @@
 		7D219DC9215DFCC1003EDD36 /* HashGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DC8215DFCC1003EDD36 /* HashGenerator.swift */; };
 		7D219DCB215DFCCA003EDD36 /* HashGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D219DCA215DFCCA003EDD36 /* HashGeneratorTests.swift */; };
 		7D382E9321632FC30076623E /* ConfigurationTests.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D382E9221632FC30076623E /* ConfigurationTests.plist */; };
+		7D382E9521633EC70076623E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D382E9421633EC70076623E /* Model.swift */; };
+		7D382E972163416A0076623E /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D382E962163416A0076623E /* ModelTests.swift */; };
+		7D382E9A216341AF0076623E /* ModelTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D382E98216341AF0076623E /* ModelTests.xcdatamodeld */; };
 		7D3EB7B6215E9FAA0046AFFF /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EB7B5215E9FAA0046AFFF /* Configuration.swift */; };
 		7D3EB7B8215E9FB80046AFFF /* ConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EB7B7215E9FB80046AFFF /* ConfigurationTests.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,9 @@
 		7D219DC8215DFCC1003EDD36 /* HashGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashGenerator.swift; sourceTree = "<group>"; };
 		7D219DCA215DFCCA003EDD36 /* HashGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashGeneratorTests.swift; sourceTree = "<group>"; };
 		7D382E9221632FC30076623E /* ConfigurationTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ConfigurationTests.plist; sourceTree = "<group>"; };
+		7D382E9421633EC70076623E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7D382E962163416A0076623E /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		7D382E99216341AF0076623E /* ModelTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelTests.xcdatamodel; sourceTree = "<group>"; };
 		7D3EB7B5215E9FAA0046AFFF /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		7D3EB7B7215E9FB80046AFFF /* ConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +111,7 @@
 				7D219DC4215DFB4A003EDD36 /* UIColorHelpers.swift */,
 				7D219DC8215DFCC1003EDD36 /* HashGenerator.swift */,
 				7D3EB7B5215E9FAA0046AFFF /* Configuration.swift */,
+				7D382E9421633EC70076623E /* Model.swift */,
 			);
 			path = SwiftHelpers;
 			sourceTree = "<group>";
@@ -121,6 +128,8 @@
 				7D219DCA215DFCCA003EDD36 /* HashGeneratorTests.swift */,
 				7D3EB7B7215E9FB80046AFFF /* ConfigurationTests.swift */,
 				7D382E9221632FC30076623E /* ConfigurationTests.plist */,
+				7D382E962163416A0076623E /* ModelTests.swift */,
+				7D382E98216341AF0076623E /* ModelTests.xcdatamodeld */,
 			);
 			path = SwiftHelpersTests;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D382E9521633EC70076623E /* Model.swift in Sources */,
 				7D3EB7B6215E9FAA0046AFFF /* Configuration.swift in Sources */,
 				7D219DB9215DF1FA003EDD36 /* Loader.swift in Sources */,
 				7D219DC1215DF819003EDD36 /* ArrayHelpers.swift in Sources */,
@@ -248,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D382E9A216341AF0076623E /* ModelTests.xcdatamodeld in Sources */,
 				7D219DBB215DF206003EDD36 /* LoaderTests.swift in Sources */,
 				7D219DAC215DEB8D003EDD36 /* SwiftHelpersTests.swift in Sources */,
 				7D219DC7215DFB52003EDD36 /* UIColorHelpersTests.swift in Sources */,
@@ -255,6 +266,7 @@
 				7D219DCB215DFCCA003EDD36 /* HashGeneratorTests.swift in Sources */,
 				7D219DBF215DF3FB003EDD36 /* StringValidatorTests.swift in Sources */,
 				7D219DC3215DF85E003EDD36 /* ArrayHelpersTests.swift in Sources */,
+				7D382E972163416A0076623E /* ModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +529,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D382E98216341AF0076623E /* ModelTests.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D382E99216341AF0076623E /* ModelTests.xcdatamodel */,
+			);
+			currentVersion = 7D382E99216341AF0076623E /* ModelTests.xcdatamodel */;
+			path = ModelTests.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7D219D91215DEA52003EDD36 /* Project object */;
 }
